@@ -113,3 +113,4 @@ INSERT INTO Betreuung (Kundennummer, Personalnummer, VonKKBezahlt, Notiz) VALUES
 INSERT INTO Betreuung (Kundennummer, Personalnummer, VonKKBezahlt, Notiz) VALUES ((SELECT Kundennummer FROM Kunden WHERE Vorname='Viktor'), (SELECT Personalnummer FROM Mitarbeiter WHERE Vorname='Markus'), 0, 'Koordinations probleme' );
 
 INSERT INTO Betreuung (Kundennummer, Personalnummer, VonKKBezahlt, Notiz) VALUES ((SELECT Kundennummer FROM Kunden WHERE Vorname='Viktor'), (SELECT Personalnummer FROM Mitarbeiter WHERE Vorname='Jürg'), 1, 'Bandscheiben vorfall, Rückenübungen' );
+
